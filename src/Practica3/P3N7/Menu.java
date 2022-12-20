@@ -7,7 +7,7 @@ public class Menu {
         Currency[] currencies = {new Currency("usd", 0.016, "$"), new Currency("eur", 0.018, "€"), new Currency("amd", 6.34, "֏")};
         double price = 0;
         System.out.println("Welcome to the Избушка на опушке!\n Our menu:");
-        Item[] menu = {new Item("гренки с сыром", 59),new Item("мяной блинчик", 85),new Item("сырный Богатырь", 209), new Item("картошка по деревенски", 45), new Item("лимонад", 90)};
+        Item[] menu = {new Item("гренки с сыром", 59),new Item("мясной блинчик", 85),new Item("сырный Богатырь", 209), new Item("картошка по деревенски", 45), new Item("лимонад", 90)};
         for (Item item : menu) {
             System.out.format("    %s - %s₽\n",item.getName(), item.getPrice());
         }

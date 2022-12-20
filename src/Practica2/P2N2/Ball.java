@@ -19,7 +19,7 @@ public class Ball {
     public double getY(){return y;}
     public void setXY(){this.x = x; this.y = y;}
     public void Move(){
-        System.out.print("\nНа сколько переместить:\n");
+        System.out.print("\nНа сколько переместить: ");
         MoveX = source.nextDouble();
         MoveY = source.nextDouble();
         x = x + MoveX;

@@ -18,6 +18,6 @@ public class P1N1 {
             System.out.print (mas[i]);
         }
         System.out.println("\n sum = " + sum);
-        System.out.println("\n ar = " + ar);
+        System.out.println("ar = " + ar);
     }
 }

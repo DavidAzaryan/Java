@@ -6,9 +6,9 @@ import java.util.Scanner;
 public class Store {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        String[] Cars = {"car1", "car2"};
-        String[] Bikes = {"bike1", "bike2"};
-        String[] ATVs = {"ATV1", "ATV2", "ATV3"};
+        String[] Cars = {"Reno", "BMW"};
+        String[] Bikes = {"MTT", "Dodge"};
+        String[] ATVs = {"BRP", "Kymco", "Hensim"};
         Catalogs[] catalogs = {new Catalogs("Cars", Cars), new Catalogs("Bikes", Bikes), new Catalogs("ATVs", ATVs)};
         ArrayList<String> basket = new ArrayList<>();
         String command = "";

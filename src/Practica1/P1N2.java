@@ -8,7 +8,7 @@ public class P1N2 {
         int[] mas = new int [6];
         int sum = 0;
 
-        System.out.print("Enter a number: \n");
+        System.out.println("Enter a number: ");
         int i = 0;
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
